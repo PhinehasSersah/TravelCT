@@ -472,13 +472,25 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: absolute;
 }
 
+.relative {
+  position: relative;
+}
+
 .top-1 {
   top: 0.25rem;
+}
+
+.top-3 {
+  top: 0.75rem;
 }
 
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
 .flex {
@@ -491,6 +503,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-8 {
   height: 2rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-2 {
+  height: 0.5rem;
 }
 
 .w-full {
@@ -507,6 +527,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -549,9 +573,32 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-repeat: no-repeat;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.leading-4 {
+  line-height: 1rem;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-neutral-700 {
+  --tw-text-opacity: 1;
+  color: rgb(64 64 64 / var(--tw-text-opacity));
+}
+
+.text-nav-text {
+  --tw-text-opacity: 1;
+  color: rgb(65 79 107 / var(--tw-text-opacity));
 }
 
 .underline {

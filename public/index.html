@@ -1,82 +1,105 @@
 <!DOCTYPE html>
 <html class="overflow-x-hidden">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./style.css">
-        <title>Coalition Technology Test</title>
-      </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Coalition Technology Test</title>
+  </head>
 
-      <header class="  bg-hero w-full h-screen flex justify-center bg-cover bg-no-repeat bg-center md:bg-top">
-          <nav class=" flex gap-30 w-4/6 h-8 mx-auto absolute justify-between top-1">
-              <img src="./images/Logo.jpg" alt="company-logo" class="w-8 h-8 rounded-full">
-              <ul class="flex gap-4 items-center">
-                  <li class="text-white underline cursor-pointer">01.HISTORY</li>
-                  <li class="text-white underline cursor-pointer">02.TEAM</li>
-              </ul>
-          </nav>
-          <!-- <img src="./resources/images/back good.jpg"> -->
-      </header>
-      <section class="first">
-        <nav>
-            <img src="./images/Logo.jpg" alt="company-logo">
-            <div>LOSAGELES <span>MOUNTAINS</span></div>
-            <ul>
-                <li>01.HISTORY</li>
-                <li>02.TEAM</li>
-            </ul>
-        </nav>
-        <div>
-            <div class="lorem">
-                <h1>01.</h1>
-                <h3>HISTORY</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin </p>
-            </div>
-            <img src="./images/peak.jpg" alt="middle-section">
-            <div class="blue">
-             <div class="carosel">
-                 <img src="./images/c2.jpg" alt="" class="4">
-                 <img src="./images/c1.jpg" alt="" class="4">
-                 <img src="./images/c2.jpg" alt="" class="4">
-                 <img src="./images/c1.jpg" alt="" class="4">
-             </div>
-             <div></div>
-             <div></div>
-             <div></div>
-             <div></div>
-            </div>
+  <body>
+    <header
+      class="bg-hero w-full h-screen flex justify-center bg-cover bg-no-repeat bg-center md:bg-top"
+    >
+      <nav class="flex gap-30 w-4/6 h-8 mx-auto absolute justify-between top-1">
+        <img
+          src="./images/Logo.jpg"
+          alt="company-logo"
+          class="w-8 h-8 rounded-full"
+        />
+        <ul class="flex gap-4 items-center">
+          <li class="text-white underline cursor-pointer">01.HISTORY</li>
+          <li class="text-white underline cursor-pointer">02.TEAM</li>
+        </ul>
+      </nav>
+      <!-- <img src="./resources/images/back good.jpg"> -->
+    </header>
+    <section class="first relative">
+      <nav class="flex gap-30 w-4/6 h-12 mx-auto justify-between items-center">
+        <div class="flex">
+          <img
+            class="w-8 h-8 rounded-full"
+            src="./images/Logo.jpg"
+            alt="company-logo"
+          />
+          <h4
+            class="flex-col text-neutral-700 w-8 h-2 font-semibold ml-2 leading-4 text-xl"
+          >
+            LOSAGELES <span class="text-nav-text">MOUNTAINS</span>
+          </h4>
         </div>
+        <ul class="flex gap-4 items-center">
+          <li class="text-nav-text underline cursor-pointer">01.HISTORY</li>
+          <li class="text-nav-text underline cursor-pointer">02.TEAM</li>
+        </ul>
+      </nav>
 
-      </section>
-      <section class="second">
-        <div class="second-lorem">
-            <h1>02.</h1>
-            <h3>CLIMB</h3>
-            <p>Cras scelerisque id quam sed dignissim Pellentesque urna nunc, </p>
+      <div class="lorem absolute top-3 z-4">
+        <h1>01.</h1>
+        <h3>HISTORY</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin</p>
+      </div>
+      <ul>
+        <li><img src="./images/peak.jpg" alt="middle-section" /></li>
+        <li><img src="./images/c2.jpg" alt="" class="4" /></li>
+        <li><img src="./images/c1.jpg" alt="" class="4" /></li>
+        <li><img src="./images/c2.jpg" alt="" class="4" /></li>
+        <li><img src="./images/c1.jpg" alt="" class="4" /></li>
+      </ul>
+
+      <div class="blue">
+        <div class="carosel"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </section>
+
+    <!-- second section of the page -->
+    <section class="second">
+      <div class="second-lorem">
+        <h1>02.</h1>
+        <h3>CLIMB</h3>
+        <p>Cras scelerisque id quam sed dignissim Pellentesque urna nunc,</p>
+      </div>
+      <div class="tabs">
+        <div class="buttons">
+          <button class="btn-1">MOUNTAIN 1</button
+          ><button class="btn-2">MOUNTAIN 2</button>
         </div>
-        <div class="tabs">
-            <div class="buttons"><button class="btn-1">MOUNTAIN 1</button><button class="btn-2">MOUNTAIN 2</button></div>
-        </div>
-        <div class="last-images">
-            <img src="./images/third-1.jpg" alt="tab image" class="tabs-images-1">
-            <img src="./images/third-2.jpg" alt="tab image" class="tabs-images-2">
-        </div>
-        <div class="schedule">
-            <h4>SCHEDULE</h4>
-            <p>25 Nov 2016     Vestibulum viverra</p>
-            <p>28 Nov 2016     Vestibulum viverra</p>
-            <br>
-            <p>18 Dec 2016     Vestibulum viverra</p>
-            <br>
-            <p>18 Dec 2017     Vestibulum viverra</p>
-        </div>
-      </section>
-      <footer>
-          <div class="los">
-              <img src="./images/Logo.jpg" alt="footer logo">
-                <h4>LOSAGELES MOUNTAINS</h4>
-            </div>
-          <p>COPYRIGHT 2016. ALL RIGHTS RESERVED.</p>
-      </footer>
+      </div>
+      <div class="last-images">
+        <img src="./images/third-1.jpg" alt="tab image" class="tabs-images-1" />
+        <img src="./images/third-2.jpg" alt="tab image" class="tabs-images-2" />
+      </div>
+      <div class="schedule">
+        <h4>SCHEDULE</h4>
+        <p>25 Nov 2016 Vestibulum viverra</p>
+        <p>28 Nov 2016 Vestibulum viverra</p>
+        <br />
+        <p>18 Dec 2016 Vestibulum viverra</p>
+        <br />
+        <p>18 Dec 2017 Vestibulum viverra</p>
+      </div>
+    </section>
+    <footer>
+      <div class="los">
+        <img src="./images/Logo.jpg" alt="footer logo" />
+        <h4>LOSAGELES MOUNTAINS</h4>
+      </div>
+      <p>COPYRIGHT 2016. ALL RIGHTS RESERVED.</p>
+    </footer>
+  </body>
 </html>

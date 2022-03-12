@@ -6,7 +6,11 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero': "url('./images/back good.jpg')",
+      },
+      colors: {
+        'nav-text': "#414f6b",
       }
+      
     },
   },
   plugins: [],
