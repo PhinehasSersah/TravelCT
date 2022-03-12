@@ -9,6 +9,9 @@ module.exports = {
       },
       colors: {
         'nav-text': "#414f6b",
+      },
+      height: {
+        'image-height': "93%"
       }
       
     },
