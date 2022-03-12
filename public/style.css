@@ -480,12 +480,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: 0.25rem;
 }
 
-.top-3 {
-  top: 0.75rem;
+.top-16 {
+  top: 4rem;
+}
+
+.left-64 {
+  left: 16rem;
+}
+
+.left-32 {
+  left: 8rem;
 }
 
 .bottom-0 {
   bottom: 0px;
+}
+
+.z-40 {
+  z-index: 40;
 }
 
 .z-0 {
@@ -510,6 +522,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 0.5rem;
 }
 
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -530,12 +546,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 0.5rem;
 }
 
-.h-image-height {
-  height: 93%;
-}
-
 .h-full {
   height: 100%;
+}
+
+.h-image-height {
+  height: 93%;
 }
 
 .h-40 {
@@ -560,6 +576,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-screen {
   width: 100vw;
+}
+
+.w-40 {
+  width: 10rem;
 }
 
 .shrink {
@@ -634,12 +654,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-semibold {
   font-weight: 600;
 }
 
+.font-black {
+  font-weight: 900;
+}
+
 .leading-4 {
   line-height: 1rem;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
 }
 
 .text-white {
@@ -660,6 +698,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .underline {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
+}
+
+.opacity-50 {
+  opacity: 0.5;
 }
 
 .opacity-80 {
