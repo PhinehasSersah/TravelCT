@@ -52,24 +52,24 @@
     </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin</p>
       </div>
-      <div class="h-full w-screen">
-      <ul class="h-image-height w-screen relative" >
-        <li class="h-full w-screen absolute " ><img class="h-full w-full object-cover" src="./images/peak.jpg" alt="middle-section" /></li>
-        <li class="h-full w-screen absolute"><img class="h-full w-full object-cover" src="./images/c2.jpg" alt="" class="4" /></li>
-        <li class="h-full w-screen absolute"><img class="h-full w-full object-cover" src="./images/c1.jpg" alt="" class="4" /></li>
-        <li class="h-full w-screen absolute"><img class="h-full w-full object-cover" src="./images/c2.jpg" alt="" class="4" /></li>
-        <li class="h-full w-screen absolute"><img class="h-full w-full object-cover" src="./images/c1.jpg" alt="" class="4" /></li>
+      <div class=" h-full w-screen" data-carousel>
+      <ul data-slides class="h-image-height w-screen relative" >
+        <li class="h-full w-screen absolute "><img class="h-full w-full object-cover" src="./images/peak.jpg" alt="middle-section" /></li>
+        <li class="hi hidden h-full w-screen  transition-all ease-in absolute"><img class="h-full w-full object-cover" src="./images/c2.jpg" alt=""  /></li>
+        <li class="hi hidden h-full w-screen transition-all absolute"><img class="h-full w-full object-cover" src="./images/c1.jpg" alt=""  /></li>
+        <li class="hi hidden  h-full w-screen transition-all absolute"><img class="h-full w-full object-cover" src="./images/c2.jpg" alt="" /></li>
+        <li class="hi hidden  h-full w-screen transition-all absolute"><img class="h-full w-full object-cover" src="./images/c1.jpg" alt=""  /></li>
       </ul>
-    </div>
-
-      <div class=" absolute w-full shrink h-40 bottom-0 opacity-80 bg-nav-text  flex justify-center items-center z-0">
+  
+      <div class=" absolute w-full shrink h-40 bottom-0 opacity-80 bg-nav-text  flex justify-center items-center z-70">
         <div class="carosel flex justify-center items-center">
-        <div class="w-40  h-32 mx-2 shrink bg-black"><img src="./images/c2.jpg" alt="" class="w-full h-full object-cover opacity-100 z-20 " /></li></div>
-        <div class="w-40 h-32 mx-2 shrink bg-black"><img src="./images/c1.jpg" alt="" class=" w-full h-full object-cover opacity-100 z-20 " /></li></div>
-        <div class="w-40  h-32 mx-2 shrink bg-black"><img src="./images/c2.jpg" alt="" class="w-full h-full object-cover opacity-100 z-20 " /></li></div>
-        <div class="w-40  h-32 mx-2 shrink bg-black"><img src="./images/c1.jpg" alt="" class="w-full h-full object-cover opacity-100 z-20 " /></li></div>
+        <div data-carousel-button="next" class="w-40  h-32 mx-2 shrink"><img src="./images/c2.jpg" alt="" class="w-full h-full object-cover opacity-100 z-20 " /></li></div>
+        <div data-carousel-button="next" class="w-40 h-32 mx-2 shrink"><img src="./images/c1.jpg" alt="" class=" w-full h-full object-cover opacity-100 z-20 " /></li></div>
+        <div data-carousel-button="next" class="w-40  h-32 mx-2 shrink"><img src="./images/c2.jpg" alt="" class="w-full h-full object-cover opacity-100 z-20 " /></li></div>
+        <div data-carousel-button="next" class="w-40  h-32 mx-2 shrink"><img src="./images/c1.jpg" alt="" class="w-full h-full object-cover opacity-100 z-20 " /></li></div>
         </div>
       </div>
+    </div>
     </section>
 
     <!-- second section of the page -->
@@ -106,5 +106,6 @@
       </div>
       <p>COPYRIGHT 2016. ALL RIGHTS RESERVED.</p>
     </footer>
+    <script src="./main.js"></script>
   </body>
 </html>

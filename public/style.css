@@ -500,10 +500,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: 40;
 }
 
-.z-0 {
-  z-index: 0;
-}
-
 .z-20 {
   z-index: 20;
 }
@@ -528,6 +524,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-screen {
@@ -623,11 +623,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(65 79 107 / var(--tw-bg-opacity));
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
 .bg-hero {
   background-image: url('./images/back good.jpg');
 }
@@ -710,6 +705,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .opacity-100 {
   opacity: 1;
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.ease-in {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
 @media (min-width: 768px) {

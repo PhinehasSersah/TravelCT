@@ -12,8 +12,7 @@ module.exports = {
       },
       height: {
         'image-height': "93%"
-      }
-      
+      }, 
     },
   },
   plugins: [],
